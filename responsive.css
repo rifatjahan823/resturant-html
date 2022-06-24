@@ -1,0 +1,119 @@
+@media all and (max-width: 767px) {
+.logo{
+	width:30%;
+	text-align:center;
+	}
+.main-menu{
+	width:100%;
+}
+
+.main-menu ul li{
+	float:left;
+}
+
+.food-area{
+	width:100%;
+}
+.food-img{
+	width:100%;
+}
+.food-area h2{
+	font-size:4em;
+}
+.top-content h2{
+	font-size:4em;
+}
+.intro-area h2{
+	font-size:4em;
+}
+.left-discount{
+	width:100%
+}
+.right-discount{
+	width:100%;
+}
+.right-discount h2{
+	font-size:2em;
+}
+
+.bottom-left{
+	width:100%;
+}
+.bottom-left h2{
+	font-size:2em;
+}
+.bottom-right{
+	width:100%;
+}
+.pizza-content img{
+	margin-top:-190px;
+}
+.main-content h2{
+	font-size:27px;
+	margin-top:50px;
+	text-align:left;
+}
+.footer-one{
+	width:100%;
+	}
+.footer-two{
+	width:30%;
+	margin-top:30px;
+	}
+.footer-three{
+	width:30%;
+	margin-top:30px
+	}
+.footer-four{
+	width:30%;
+	margin-top:30px;
+	}
+	.para{
+	font-size:18px;
+}
+}
+
+
+@media all and (max-width: 600px) {
+	.pizza-content img{
+	margin-top:-150px;
+}
+.pizza-content h2{
+	font-size:3em;
+}
+.pizza-content p{
+	font-size:15px;
+}
+.main-content h2{
+	font-size:27px;
+}
+.main-menu ul li a{
+	padding:10px 10px;
+	font-size:15px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

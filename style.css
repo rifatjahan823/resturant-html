@@ -1,0 +1,467 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: phototime
+	Template URI: http://www.softtech-it.com
+	Description: photo related template
+	Author: Mtm Likha liya
+	Author URI: http://www.tom.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+		2.1 Menu
+		2.2 Welcome Text 
+		2.3 Bottom Menu 
+	3. Getstarte
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+
+-----------------------------------------------------------------------------------*/
+
+
+/************** 1. Typography ************************/
+
+*{margin:0;padding:0;}
+.container{
+	width:80%;
+	margin:0 auto;
+	max-width:960px;
+}
+.fix{
+	overflow:hidden;
+}
+
+.floatleft{
+	float:left;
+}
+
+.floatright{
+	float:right;
+}
+img{
+	width:100%;
+	height:auto;
+}
+
+
+/********** Header-area Start *************/
+
+
+.header-area{
+	background-image:url(img/3795292.jpg);
+	color:white;
+	background-repeat:no-repeat;
+	background-position:0 0;
+	background-size:100% 100%;
+	
+}
+.logo{
+	width:25%;
+	margin-top: 10px;
+}
+.main-menu{
+	width:70%;
+	margin-top:30px;
+}
+.main-menu ul{
+	list-style-type:none;
+}
+.main-menu ul li{
+	float:right;
+}
+.main-menu ul li a{
+	display:block;
+	color:white;
+	text-decoration:none;
+	padding:10px 15px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:18px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.food-area{
+	width:40%;
+}
+
+.food-area h2{
+	font-family: 'Sacramento', cursive;
+	font-size:5em;
+	text-transform:capitalize;
+	margin-top:50px;
+}
+.food-area .p{
+	font-family: 'Open Sans', sans-serif;
+	text-transform:uppercase;
+	font-style:italic;
+	font-weight:bold;
+}
+.btn{
+	color:black;
+	text-decoration:none;
+	background:white;
+	display:inline-block;
+	padding:5px 18px;
+	text-transform:uppercase;
+	font-family:tahoma;
+	font-weight:bold;
+	border-radius:20px;
+	margin-top:40px;
+}
+.btn:hover{
+	background:black;
+	color:white;
+}
+.food-area p{
+	font-style:italic;
+	margin-top:15px;
+	font-size:20px;
+}
+.food-img{
+	width:60%;
+	float:right;
+}
+
+
+
+/**----- Content Area Start ------**/
+
+
+.content-area{
+	padding:60px 0;
+	color:black;
+}
+
+
+
+.top-content h2{
+	font-family: 'Sacramento', cursive;
+	font-size:5em;
+	text-transform:capitalize;
+	text-align:center;	
+}
+.top-content p{
+	text-align:center;
+}
+.bottom-content{
+	margin-top:60px;
+}
+.left-content{
+	width:30%;
+	margin-right:5%;
+}
+.midle-content{
+	width:30%;
+	margin-right:5%;
+}
+.right-content{
+	width:30%;
+}
+.utn {
+	color:white;
+	text-decoration:none;
+	letter-spacing:2px;
+	background:black;
+	display:inline-block;
+	padding:15px 40px;
+	text-transform:uppercase;
+	font-family:tahoma;
+	font-weight:bold;
+	border-radius:20px;
+	margin-top:50px;
+	border:none;
+	text-align:center;
+}
+.utn:hover{
+	background:#393A3F;
+}
+
+
+
+
+
+/****----- intro Area Start ------**/
+
+.intro-area{
+	background:#333333;
+	color:white;
+	padding:50px 0;
+}
+.intro-area h2{
+	text-align:center;
+	font-family: 'Sacramento', cursive;
+	font-size:5em;
+	text-transform:capitalize;
+	margin-bottom:20px;
+}
+.intro-left{
+	width:45%;
+	margin-right:10%;
+}
+.intro-right{
+	width:45%;
+}
+.button{
+	text-align:center;
+}
+.batn {
+	overflow:hidden;
+	color:black;
+	text-decoration:none;
+	background:white;
+	display:inline-block;
+	padding:8px 30px;
+	text-transform:uppercase;
+	font-family:tahoma;
+	font-weight:bold;
+	border-radius:20px;
+	margin-top:40px;
+}
+.batn:hover{
+	background:black;
+	color:white;
+}
+
+.discount-area{
+	background:white;
+	padding:30px 0;
+}
+
+.left-discount{
+	width:45%;
+	margin-right:10%;
+}
+.right-discount{
+	width:45%;
+}
+.right-discount h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size:3em;
+	margin-top:30px;
+}
+.right-discount p{
+	font-family: 'Open Sans', sans-serif;
+	margin-top:20px;
+	font-size:20px;
+}
+.discount-butn{
+	overflow:hidden;
+	color:white;
+	text-decoration:none;
+	background:black;
+	display:inline-block;
+	padding:15px 40px;
+	text-transform:uppercase;
+	font-family:tahoma;
+	font-weight:bold;
+	border-radius:20px;
+	margin-top:40px;	
+}
+.discount-butn:hover{
+	background:#393A3F;
+}
+.bottom-left{
+	width:45%;
+	margin-right:10%;
+}
+.bottom-left h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size:3em;
+	margin-top:30px;	
+}
+.bottom-left p{
+	font-family: 'Open Sans', sans-serif;
+	margin-top:20px;
+	font-size:20px;
+}
+.bottom-right{
+	width:45%;
+}
+
+.pizza-area{
+	background-image:url(img/3795292.jpg);
+	color:white;
+	background-repeat:no-repeat;
+	background-position:0 0;
+	background-size:100% 100%;
+	z-index:5;
+}
+.pizza-content h2{
+	font-family: 'Sacramento', cursive;
+	font-size:5em;
+	text-transform:capitalize;
+	text-align:center;
+	margin-top:50px;	
+}
+.pizza-content p{
+	font-family: 'Open Sans', sans-serif;
+	text-align:center;
+	font-size:25px;
+}
+
+.pizza-content p:after{
+	content:'';
+	display:block;
+	margin:auto;
+	height:5px;
+	width:95px;
+	background:white;
+	margin-top:20px;
+}
+.pizza-content img{
+	margin-top:-380px;
+	margin-bottom:-130px;
+
+}
+
+.main-content{
+	padding:70px 0;
+}
+.main-content h2{
+	font-family: 'Sacramento', cursive;
+	font-size:2.5em;
+	text-transform:capitalize;
+	text-align:center;	
+}
+.left-section{
+	width:30%;
+	margin-right:5%;
+	margin-bottom:70px;
+}
+.midle-section{
+	width:30%;
+	margin-right:5%;
+	margin-bottom:70px;
+}
+.right-section{
+	width:30%;
+	margin-bottom:70px;
+}
+
+.para{
+	text-align:center;
+	font-size:30px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+}
+.par{
+	text-align:center;
+	margin-top:20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:bold;
+	font-size:30px;
+	}
+
+
+.email-section{
+	background:black;
+	background-repeat:no-repeat;
+	background-position:0 0;
+	background-size:100% 100%;
+	color:white;
+	background-image:url(img/3795298.png);
+	padding:90px 0;
+	text-align:center;
+}
+
+.template h2{
+	font-family: 'Open Sans', sans-serif;
+	text-transform:capitalize;
+	font-weight:bold;
+	font-size:55px;
+	margin-bottom:35px;
+}
+
+.template p{
+	font-size:20px;
+	margin-bottom:35px;
+}
+.template form input[type="email"]{
+	padding:10px 30px;
+	background:#ffffff;
+	border:none;
+	text-transform:uppercase;
+	border-radius:15px 0 0 15px;
+	margin-right:0;
+	font-weight:bold;
+}
+.template form button{
+	padding: 11px 15px;
+    color: #ffffff;
+    background-color:#666666;
+    border: none;
+    border-radius: 15px;
+    margin-left: -15px;
+	text-transform:uppercase;
+}
+.footer-area{
+	padding:120px 0;
+}
+.footer-area h2{
+	text-transform:capitalize;
+	margin-bottom:10px;
+	font-family:tahoma;
+}
+.footer-area ul{
+	list-style:none;
+}
+.footer-area ul li a{
+	text-decoration:none;
+	color:black;
+	text-transform:capitalize;
+	font-family:tahoma;
+	line-height:2em;
+}
+.footer-one{
+	width:30%;
+	margin-right:10%
+	}
+.footer-one p{
+	font-family:tahoma;
+	letter-spacing:2px;
+}	
+.footer-one img{
+	width:30px;
+	height:auto;
+	margin-top:20px;
+}
+.footer-one ul li{
+	float:left;
+	margin-left:3%;
+}
+.footer-one ul li:first-child{
+	margin-left:0%;
+}
+.footer-two{
+	width:20%;
+	}
+.footer-three{
+	width:20%;
+	}
+.footer-four{
+	width:20%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
